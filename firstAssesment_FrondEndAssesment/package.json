@@ -1,0 +1,24 @@
+{
+  "name": "first_assesment-frontendassesment",
+  "version": "1.0.0",
+  "description": "This is the first assesment from what we saw in  session 1",
+  "main": "index.js",
+  "scripts": {
+    "testing-all-firefox": "testcafe firefox ./page_model/test",
+    "testing-all-chromium": "testcafe chromium ./page_model/test",
+    "test1-all-browsers": "testcafe all ./page_model/test/1-FirstLogin.test.js",
+    "test2-all-browsers": "testcafe all ./page_model/test/2-NavigateCart.test.js",
+    "test3-all-browsers": "testcafe all ./page_model/test/3-AddItemsCart.test.js",
+    "test4-all-browsers": "testcafe all ./page_model/test/4-ShippingInformation.test.js",
+    "test5-all-browsers": "testcafe all ./page_model/test/5-FinalOrder.test.js"
+  },
+  "keywords": [
+    "testcafe",
+    "automation"
+  ],
+  "author": "EduardoAraujo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
